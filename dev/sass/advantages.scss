@@ -1,0 +1,93 @@
+.advanteges{
+    position: relative;
+
+        .width{
+            padding-top: 174px;
+                padding-bottom: 228px;
+        }
+}
+
+.advantages {
+    .container-xxl {
+        max-width: 1820px;
+        background-color: #363a4d;
+        }
+}
+.container-adv{
+        max-width: 1170px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 76px;
+}
+.advantages-slider {
+    padding-bottom: 40px;
+}
+.container-adv .title-adv h2 {
+    height: 45px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+    padding-top: 90px;
+    /* 44.82px */
+    text-transform: uppercase;
+
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 85px;
+                    height: 2px;
+                    margin: 1625px 10px 10px 10px;
+                    background: #e58d35;
+                    position: absolute;
+                    left: 50%;
+                    top: calc(100% - 2px);
+                    transform: translate(-50%, 0);     }
+
+}
+
+.col-lg-3 {
+    padding-top: 102px;
+}
+
+.advantage {
+    text-align: center;
+    margin-bottom: 0;
+
+        &-img-box{
+                width: 113px;
+                height: 113px;
+                border: 1px solid #6c7188;
+                border-radius: 50%;
+                padding: 10px;
+                margin: 0 auto 22px;
+
+                    &hover{
+                        border: 1px solid #e58d35;
+                    }
+
+                    img{
+                            background: #89c249;
+                            width: 100%;
+                            height: auto;
+                            border-radius: 50%;
+                            object-fit: scale-down;
+                    }
+
+
+        }
+
+        &-title{
+            font-size: 18px;
+                font-weight: 400;
+                max-width: 160px;
+                margin: 0 auto;
+            }
+        }
+
+
+
+

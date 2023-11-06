@@ -1,50 +1,14 @@
-// @media screen and (max-width: 991px) {
-//     .container {
-//         padding-right: 20px;
-//         padding-left: 20px;
-//     }
-
-//     a.navbar-brand {
-//         width: 126px;
-
-//         img {
-//             max-width: 100%;
-//             height: auto;
-//         }
-//     }
-
-//     header {
-//         .navbar {
-//             padding-top: 15px;
-//             padding-bottom: 17px;
-//         }
-
-//         .btn {
-//             padding: 23px 85px;
-//         }
-//     }
-
-//     .nav-link {
-//         font-size: 24px;
-//         line-height: 222%;
-//         padding: 0;
-//         margin-bottom: 10px;
-//     }
-
-//     .navbar-nav {
-//         padding: 49px 0 26px;
-//     }
-
-// }
-
-
-
 @media screen and (max-width: 991px) {
     .container-xxl {
         padding: 0; 
     }
+.first-screen {
+    margin-bottom: 55px;
+}
 
-
+.first-screen-slider .slick-slide {
+    border-radius: 0;
+}
 .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -133,11 +97,13 @@ header .btn {
 .first-screen-slider .first-screen-title {
     font-size: 32px;
     margin-bottom: 10px;
+    width: 290px;
 }
 
 .first-screen-slider .first-screen-subtitle {
     font-size: 16px;
     margin-bottom: 18px;
+    width: 270px;
 }   
 
 .man-decoration {
@@ -147,13 +113,18 @@ header .btn {
 .form {
     width: 335px;
     height: auto;
-    padding: 50px 30px 30px 30px;
+    padding: 50px 30px 16px 30px;
+}
+.pos-checkbox {
+    padding-top: 9px;
+    margin-bottom: 6px;
+
 }
 
 .btn-lg {
     padding: 19.4px 34px;
     font-size: 16px;
-    width: 293px;
+    
 }
 
 .calculation-title.col-lg-7 h2 {
@@ -169,6 +140,30 @@ header .btn {
         left: 50%;
         transform: translate(-50%, 0%);
     }
+}
+
+.container-adv {
+
+    .title-adv h2 {
+        padding-top: 55px;
+        font-size: 24px;
+    }
+
+    .advantage-title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 180px;
+        margin: 0 auto;
+        line-height: 124.5%;
+    }
+}
+
+.advantages {
+    &.container-xxl {
+        padding-bottom: 60px;
+    }
+
 }
 
 }
