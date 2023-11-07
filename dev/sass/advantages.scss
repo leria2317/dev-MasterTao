@@ -1,4 +1,5 @@
 .advanteges{
+    padding: 87px 40px 63px;
     position: relative;
 
         .width{
@@ -20,18 +21,19 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 76px;
+        padding: 90px;
 }
 .advantages-slider {
     padding-bottom: 40px;
 }
-.container-adv .title-adv h2 {
-    height: 45px;
+.container-adv .template-title h2 {
+    // height: 45px;
     text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 124.5%;
-    padding-top: 90px;
+    // padding-left: 84px;
     /* 44.82px */
     text-transform: uppercase;
 
@@ -40,10 +42,13 @@
                     display: inline-block;
                     width: 85px;
                     height: 2px;
-                    margin: 1625px 10px 10px 10px;
+                    // margin: 1625px 10px 10px 10px;
                     background: #e58d35;
-                    position: absolute;
-                    left: 50%;
+                    position: relative;
+                        bottom: -30px;
+                        right: 357px;
+                    // position: absolute;
+                    // left: 50%;
                     top: calc(100% - 2px);
                     transform: translate(-50%, 0);     }
 

@@ -144,9 +144,30 @@ header .btn {
 
 .container-adv {
 
-    .title-adv h2 {
+    .template-title h2 {
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 124.5%;
+            // padding-top: 90px;
+            // padding-left: 84px;
+            text-transform: uppercase;
         padding-top: 55px;
         font-size: 24px;
+
+            &after{
+                        content: "";
+                        display: inline-block;
+                        width: 85px;
+                        height: 2px;
+                        background: #e58d35;
+                        position: relative;
+                        bottom: -30px;
+                    //    !!!! 
+                        right: 130px;
+                        top: calc(100% - 2px);
+                        transform: translate(-50%, 0);
+            }
     }
 
     .advantage-title {
