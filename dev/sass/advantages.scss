@@ -21,10 +21,13 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 76px;
-        padding: 90px;
+        padding-top: 90px;
 }
 .advantages-slider {
     padding-bottom: 40px;
+}
+.container-adv .template-title:after {
+    background-color: #e58d35;
 }
 .container-adv .template-title h2 {
     // height: 45px;
@@ -37,30 +40,18 @@
     /* 44.82px */
     text-transform: uppercase;
 
-                &:after {
-                    content: "";
-                    display: inline-block;
-                    width: 85px;
-                    height: 2px;
-                    // margin: 1625px 10px 10px 10px;
-                    background: #e58d35;
-                    position: relative;
-                        bottom: -30px;
-                        right: 357px;
-                    // position: absolute;
-                    // left: 50%;
-                    top: calc(100% - 2px);
-                    transform: translate(-50%, 0);     }
+                &:after {  
+                    
+                }
 
 }
 
-.col-lg-3 {
-    padding-top: 102px;
-}
+
+
 
 .advantage {
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 48px;
 
         &-img-box{
                 width: 113px;
